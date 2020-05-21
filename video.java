@@ -5,7 +5,10 @@ public class video {
     private String bookLocation;
     private String stocked;
     
-    // Properties given contructors
+    public video(int retailPrice2, int releaseDate2, String bookLocation2, String stocked2) {
+	}
+
+	// Properties given contructors
     public void book(int retailPrice, int releaseDate, String bookLocation, String stocked) {
 
         this.retailPrice = retailPrice;
